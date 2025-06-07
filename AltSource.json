@@ -15,7 +15,7 @@
       "size": 151059429,
       "subtitle": "A modified Twitter app, with branding reverts, BHTwitter and other QoL modifications.",
       "tintColor": "1DA1F2",
-      "version": "1.0 (10.94)",
+      "version": "10.94",
       "versionDate": "2025-05-04T14:00:00-07:00",
       "versionDescription": "Twitter, version 10.94:\nUpdated the Twitter build to 10.94\n\nNeoFreeBird, version 1.0:\nImproved various translations in all locales (#13, #15)\nAdded Croatian and Ukrainian (thanks @ytrav)\n[Beta] Added the Tweet source label (like Twitter for iPhone and so on, thanks @nyathea)\nMade the Twitter bird follow the accent color (#20, thanks @nyathea)\nAdded the seasonal Twitter icons from 2022\nAdded the ability to disable the individual Photos/Videos tabs, the Articles tab, and the Highlights tab on profiles (thanks @nyathea)\nAdded the ability to disable the compact interaction buttons on Tweets (thanks @nyathea)\nRedesigned the NeoFreeBird settings page\nFixed tap-and-hold to speed up videos (#9)\nFixed the Video Download button causing crashes on 10.94 and beyond"
     }
