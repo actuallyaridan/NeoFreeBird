@@ -1,0 +1,54 @@
+name: "Bug Report"
+description: Report bugs caused by NeoFreeBird.
+labels: 'bug'
+#type: Bug
+body:
+  - type: "textarea"
+    attributes:
+      label: "Description"
+      description: "What are you reporting?"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Priority
+      description: How important/urgent is it for this bug to be fixed?
+      multiple: false
+      options:
+        - Low
+        - Medium
+        - High
+        - Urgent
+    validations:
+      required: true
+  - type: "textarea"
+    attributes:
+      label: "Steps to reproduce"
+      description: "What causes the bug to occur?"
+    validations:
+      required: true
+  - type: "textarea"
+    attributes:
+      label: "Expected behavior"
+      description: "What do you think the app should do instead?"
+    validations:
+      required: true
+  - type: "textarea"
+    attributes:
+      label: "Screenshot or screen recording"
+      description: "If you can, link a screenshot or a screen recording."
+    validations:
+      required: false
+  - type: "textarea"
+    attributes:
+      label: "Device"
+      description: "What device and versions are you using?"
+      value: "- Device: [e.g. iPhone 15]\n- OS: [e.g. iOS 18.1]\n- NeoFreeBird version: [e.g NeoFreeBird (new icons) 0.3]\n- Twitter build: [e.g. Twitter 10.76]\n- Self compiled: [Yes/No]"
+    validations:
+      required: true
+  - type: "textarea"
+    attributes:
+      label: "Additional context"
+      description: "Add any other context about the problem here."
+    validations:
+      required: false

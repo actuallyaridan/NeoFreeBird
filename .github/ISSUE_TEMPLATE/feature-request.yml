@@ -1,0 +1,38 @@
+name: "Feature Request"
+description: "Suggest new features to be added to NeoFreeBird."
+labels: 'enhancement'
+#type: Feature
+body:
+  - type: "textarea"
+    attributes:
+      label: "Description"
+      description: "What feature would you like to be added?"
+    validations:
+      required: true
+  - type: "dropdown"
+    attributes:
+      label: "Contributor?"
+      description: "Are you able to help adding feature?"
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Priority
+      description: How important/urgent is it for this bug to be fixed?
+      multiple: false
+      options:
+        - Low
+        - Medium
+        - High
+        - Urgent
+    validations:
+      required: true
+  - type: "textarea"
+    attributes:
+      label: "Concept"
+      description: "If you can, link a concept on how you'd like the feature to look/work like."
+    validations:
+      required: false
